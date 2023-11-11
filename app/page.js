@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Header/>
-    <main className="flex min-h-screen w-screen flex-col items-center px-6 isolate transition-all duration-200">
+    <main className="flex min-h-screen w-screen flex-col items-center px-2 s:px-4 md:px-6 isolate transition-all duration-200">
        <HeroSection/>
        <ProjectsSection/>
        <SkillsSection/>
