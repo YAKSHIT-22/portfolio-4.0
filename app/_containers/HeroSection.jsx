@@ -29,7 +29,7 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="flex items-center justify-center">
-              <img src={hero.src} alt="hero" className="object-cover"/>
+              <img src={hero.src} alt="hero" className="object-cover w-full h-full"/>
             </div>
           </div>
         </div>
