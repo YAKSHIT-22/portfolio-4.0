@@ -3,25 +3,30 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 23, 23, 23;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+html::-webkit-scrollbar {
+  width: 0rem;
+  display:none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  text-rendering: optimizeLegibility;
+  scroll-padding-top: 20px;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Mattone";
+  src: url("./_assets/Mattone-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
