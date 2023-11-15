@@ -19,7 +19,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="w-full h-full flex items-center justify-center relative">
-            <div className="flex items-start flex-col justify-start gap-1 absolute bottom-0 left-0 w-full font-mattone text-white text-[0.5rem] md:text-xs p-6">
+            <div className="flex items-start flex-col justify-start gap-1 absolute bottom-0 left-0 w-full font-mattone text-white text-[0.5rem] md:text-xs p-2 s:p-4 md:p-6">
               <p>// OPEN TO WORK</p>
               <p>YAKSHIT [2023]</p>
               <p>

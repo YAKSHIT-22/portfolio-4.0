@@ -13,10 +13,10 @@ const SkillsSection = () => {
             <div className="flex items-start justify-start w-full md:w-[50%] flex-col gap-2">
               <div className="flex flex-col h-full w-full items-start justify-start text-white">
                 <h1 className="font-mattone font-bold text-3xl xs:text-4xl s:text-5xl sm:text-6xl md:text-5xl lg:text-7xl">
-                  STUDIO
+                  SKILLS &
                 </h1>
                 <h1 className="font-mattone font-bold text-3xl xs:text-4xl s:text-5xl sm:text-6xl md:text-5xl lg:text-7xl">
-                  CULTURE
+                  TECHNOLOGY
                 </h1>
               </div>
               <div className="flex items-end justify-end w-full h-full pt-6">
