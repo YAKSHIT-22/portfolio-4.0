@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return (
-    <section  id="contact" className="w-full flex items-center min-h-screen justify-center h-full border-r border-l border-[#2e2e2e] p-2 sm:p-8">
+    <section  id="contact" className="w-full flex items-center min-h-screen justify-center h-full md:border-r md:border-l border-[#2e2e2e] p-2 sm:p-8">
       <div className="flex items-center justify-center pt-16 w-full h-full max-w-screen-2xl mx-auto">
         <div className="flex items-center justify-center w-full h-full flex-col gap-[4rem]">
           <div className="flex items-center justify-center flex-col gap-[1.2rem] w-full">

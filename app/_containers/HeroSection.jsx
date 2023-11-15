@@ -1,7 +1,7 @@
 import hero from "@/app/_assets/hero.png";
 const HeroSection = () => {
   return (
-    <section className="w-full flex items-center justify-center h-full border-r border-l border-[#2e2e2e] p-2 sm:p-8">
+    <section className="w-full flex items-center justify-center h-full md:border-r md:border-l border-[#2e2e2e] p-2 sm:p-8">
       <div className="flex items-center justify-center pt-28 w-full h-full max-w-screen-2xl mx-auto">
         <div className="flex items-center justify-center w-full h-full flex-col gap-[4rem]">
           <div className="flex items-center justify-center flex-col gap-[1.2rem] w-full max-w-5xl">

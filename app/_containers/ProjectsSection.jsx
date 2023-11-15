@@ -39,12 +39,12 @@ const projects = [
 ];
 const ProjectsSection = () => {
   return (
-    <section id="work" className="w-full flex items-center justify-center h-full border-r border-l border-[#2e2e2e] p-2 sm:p-8">
+    <section id="work" className="w-full flex items-center justify-center h-full md:border-r md:border-l border-[#2e2e2e] p-2 sm:p-8">
       <div className="flex items-center justify-center w-full pt-14 h-full max-w-screen-2xl mx-auto">
         <div className="flex items-center justify-center w-full h-full flex-col gap-[4rem]">
           <div className="flex items-center justify-center flex-col gap-[2.5rem] w-full">
             <div className="w-full flex items-start justify-start flex-col text-white uppercase">
-              <h1 className="font-mattone font-bold text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.3rem]">
+              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem]">
                 Powerful Branding, stunning websites
               </h1>
             </div>

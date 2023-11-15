@@ -5,7 +5,7 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="w-full flex items-center justify-center h-full border-r border-l border-[#2e2e2e] p-2 sm:p-8"
+      className="w-full flex items-center justify-center h-full md:border-r md:border-l border-[#2e2e2e] p-2 sm:p-8"
     >
       <div className="flex items-center justify-center w-full pt-6 h-full max-w-screen-2xl border-t border-[#2e2e2e] mx-auto">
         <div className="flex items-center justify-center flex-col w-full h-full">
