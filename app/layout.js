@@ -59,7 +59,6 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 1,
 }
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

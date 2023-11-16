@@ -1,40 +1,46 @@
-import demo from "@/app/_assets/dummy.webp";
+import floema from "@/app/_assets/floema.png"
+import aala from "@/app/_assets/aala.png"
+import codingninjas from "@/app/_assets/codingninjas.png"
+import happiness from "@/app/_assets/happiness.png"
+import marble from "@/app/_assets/marble.png"
+import podcast from "@/app/_assets/podcast.png" 
+
 const projects = [
   {
     id: 1,
-    title: "Demo project",
+    title: "Floema",
     description: "Showcase your property online with stunning design",
-    image: demo.src,
+    image: floema.src,
   },
   {
     id: 2,
-    title: "Demo project",
+    title: "AALA",
     description: "Showcase your property online with stunning design",
-    image: demo.src,
+    image: aala.src,
   },
   {
     id: 3,
-    title: "Demo project",
+    title: "CN CUIET",
     description: "Showcase your property online with stunning design",
-    image: demo.src,
+    image: codingninjas.src,
   },
   {
     id: 4,
-    title: "Demo project",
+    title: "Happiness",
     description: "Showcase your property online with stunning design",
-    image: demo.src,
+    image: happiness.src,
   },
   {
     id: 5,
-    title: "Demo project",
+    title: "Marble Studio",
     description: "Showcase your property online with stunning design",
-    image: demo.src,
+    image: marble.src,
   },
   {
     id: 6,
-    title: "Demo project",
+    title: "Podcast",
     description: "Showcase your property online with stunning design",
-    image: demo.src,
+    image: podcast.src,
   },
 ];
 const ProjectsSection = () => {
@@ -48,10 +54,10 @@ const ProjectsSection = () => {
                 Powerful Branding, stunning websites
               </h1>
             </div>
-            <div className="grid md:grid-cols-3 items-center justify-start gap-[1.4rem] s:grid-cols-2 grid-cols-1 border-b border-[#2e2e2e]">
+            <div className="grid md:grid-cols-3 items-center justify-start gap-[1.4rem] s:grid-cols-2 grid-cols-1 border-b border-[#2e2e2e] py-4">
               {projects.map((project)=>(<div key={project.id} className="flex items-start justify-start flex-col gap-3 mb-12">
                 <div className="flex items-center justify-center w-full h-full overflow-hidden">
-                  <img src={project.image} alt="demo" className="object-cover hover:scale-110 transition ease-in-out duration-700"/>
+                  <img src={project.image} alt="demo" className="object-cover h-128 object-center aspect-[16/9] hover:scale-110 transition ease-in-out duration-700"/>
                 </div>
                 <div className="flex items-start justify-start w-full">
                   <p className="uppercase font-mattone font-bold text-xl lg:text-2xl xl:text-4xl text-white">
