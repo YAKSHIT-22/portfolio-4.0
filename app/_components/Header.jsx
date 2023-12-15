@@ -2,7 +2,7 @@ import Link from "next/link"
 import app from "@/app/_assets/app.png"
 const Header = () => {
   return (
-    <header className="w-screen fixed top-0 text-white flex items-center justify-center p-2 bg-[#171717] border-b border-[#2e2e2e] z-[1302]">
+    <header className="w-screen fixed top-0 text-white flex items-center justify-center p-2 bg-[#171717] border-b border-[#2e2e2e] z-[1]">
         <nav className="w-full flex items-center justify-center p-2 max-w-screen-2xl mx-auto">
             <div className="w-full flex items-center justify-center">
                 <div className="w-full flex items-center justify-between">
