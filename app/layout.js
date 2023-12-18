@@ -35,7 +35,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    images: '/og-image.png',
+    images: 'https://github.com/YAKSHIT-22/Ogtag-Photos/blob/main/Screenshot%202023-12-19%20001527.png',
   },
   robots: {
     index: false,
